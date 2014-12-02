@@ -21,7 +21,7 @@ extension SCNGeometryElement {
 		let newCount = range.length
 		let newLocation = range.location * bytesPerIndex
 		let newLength = range.length * bytesPerIndex
-		let newRange = NSRange(location: newLocation, length: newLocation)
+		let newRange = NSRange(location: newLocation, length: newLength)
 		let newData = data!.subdataWithRange(newRange)
 		
 		let newElement = SCNGeometryElement(

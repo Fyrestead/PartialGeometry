@@ -2,7 +2,7 @@ Partial Geometry
 ===
 Creativity in naming, amirite?
 
-But seriously, I had this model file where things were divided upcorrectly. I needed a method of determining, visually,
+I had this model file where things were divided up correctly, but I needed a method of determining, visually,
 where the model should be broken apart. Simply 'hiding' wouldn't suffice, because I'd need to write the changes to
 disk. I'm publishing the important code here for others to use and improve.
 
